@@ -7,11 +7,11 @@ class EcsRunner < Formula
 
   if OS.mac?
     url "https://github.com/ministryofjustice/opg-ecs-helper/releases/download/v0.1.1/opg-ecs-helper_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "0467b8b6bb19ef5f3b73f2f8739d9c7938d4f6dff8e6997ffeb8983da740e577"
+    sha256 "bb6304e23bcf2e88ba577ee902a3aefa29ae67008728d21876f012b45b7665e3"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/ministryofjustice/opg-ecs-helper/releases/download/v0.1.1/opg-ecs-helper_0.1.1_Linux_x86_64.tar.gz"
-      sha256 "894bc0bad91208a34982f68721594dde5c27ecb12ddea3f98c920b67d72999d2"
+      sha256 "02a4f86976bb64e5901f86985628e6bc7b482d9449a664c0476b7fa7732e9f7a"
     end
   end
 
